@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>A gödöllői művésztelep és az I. világháború</h1>
+  <br>
+
+  <p id="szoveg">
+     
+1901-ben költözött Gödöllőre a művésztelep alapítója (Körösfői) Kriesch Aladár, ezt az évszámot tekintjük a művésztelep kezdetének, míg a működés záró évét a mester halálának évéhez, 1920-hoz kötjük. Mindezek mellett az első világháború kitörése az akkor virágkorát élő művésztelep működését jelentősen befolyásolta: alapjaiban változtatta meg az itt alkotók, az itt élők életét, művészetét. <br>
+A fiatalok, akik a Magyar Királyi Iparművészeti Iskola ösztöndíjasaiként kerültek ide, hadkötelesek voltak. Részt vettek a nagy háborúban, Rááb Ervin katonatiszt volt, Zichy Istvánt is behívták katonának, ő a háború után felhagyott a művészettel. Megsemmisítette addigi alkotásait. A művésztelep francia állampolgárságú tagjai, Belmonte Leo és családja valamint Charles de Fontaney, mivel Magyarország és hazájuk hadviselő féllé vált, érthető módon igyekeztek elhagyni az országot. Tom von Dréger Ausztriában hivatalos portréfestő volt. <br>
+Az Iparművészeti Iskola híradásából tudhatjuk meg, hogy a két fiatal gödöllői ösztöndíjas, Szendrő Dezső és Ortner Ferenc nyolc társukkal együtt elesett a háborúban.<br>
+Remsey Jenőt és öccsét Zoltánt is besorozták. Jenő az orosz frontra került utászként, Zoltánt az olasz frontra vitték. 1916-ban már hadifestőként teljesítettek szolgálatot. A család visszaemlékezése szerint együtt dolgoztak Mednyánszky Lászlóval, Vaszary Jánossal és Zádor Istvánnal. <br>
+Sidló Ferenc, aki már a háború előtt Budapesten a Százados utcai művésztelepen kapott lakást, hadiszobrász volt. Ő készítette az 1915. szeptember 12-én Budapesten a Deák téren, az Anker palota előtt felavatott Nemzeti Áldozatkészség Szobrát. Felkérték még Horthy Miklós büsztjének elkészítésére is, amire a tengernagy elfoglaltsága miatt nem került sor. Ő készítette el József főherceg vezérezredes egészalakos szobrát 1918-ban a Margitsziget Hadikiállításra, amely Medgyaszay István mérnöki vezetésével készült. A gödöllői műteremházak tervezőjének nevével már a korábbi hadikiállítások építészeként is találkozunk. Egy 1916. április 28-i parancs rendeli el a lembergi hadikiállítás megépítését, melynek parancsnoka Medgyaszay István, magyar királyi mérnök hadnagy. A hadsereg dicsőségét hirdető reprezentatív épületegyüttes deszkából, gerendából, kátránypapírból és félbehasított nyírfarönkökből készült. A kiállításon a látogatóknak a háborús pusztítást, a frontéletet és az újjáépítést mutatták be. <br>
+Gödöllőn élt tovább Nagy Sándor és Körösfői-Kriesch Aladár, akik életkoruk miatt 1914-ben nem számítottak hadkötelesnek.<br>
+Később kiterjesztették a hadkötelezettséget, ami Nagy Sándort érintette. Ezekben az időkben Nagy Sándor foglalkozott a hadifestői státusz gondolatával. Gondolt arra is, hogy a Ludovika kápolnájának üvegfestményét készíti el a hadi szolgálat fejében. Nagy Sándor írásaiban egyértelműen elítéli és értelmetlennek tartja a háborút.<br>
+1918-ban egy gödöllői sajtóhírből értesülünk arról, hogy Körösfői-Kriesch Aladár hadba vonul. A magyar kultuszminiszterrel és hadügyminiszterrel kötött megállapodás értelmében vendégként érkezett a fontra és hadi festőként tevékenykedett. Ottlétéről Harctéri naplójában számolt be.<br>
+A háború végét az 1918. november 11-i békeszerződés dátumához köthetjük, de tudjuk jól, hogy a háború sem politikailag, sem az emberek hétköznapjaiban ekkor még nem ért véget. <br>
+Körösfői-Kriesch Aladár szerette volna, ha ismét együtt alkotnak a gödöllői művésztelep tagjai, de erre az óriási szegénység, a háborús emlékek, a politikai változások már nem adtak lehetőséget. 
+
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

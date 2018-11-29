@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+      .szamcim{
+        top: -4px;
+      }
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Az 18<span class="szamcim">4</span>8/<span class="szamcim">49</span>-es forradalom és szabadságharc Gödöllőn</h1>
+  <br>
+
+  <p id="szoveg">
+      A forradalom eseményeinek híre már március 15-én eljutott Gödöllőre. A kisasszonyok kokárdát varrtak, kiállították a 230 fős gödöllői nemzetőrséget. A helyiek életébe jelentős változást az áprilisi törvények hoztak. A jobbágyfelszabadítás, amit gróf Viczay Károly (a Grassalkovichok örököse) földesurasága alatt végre is hajtottak, a parasztok kezébe adta az általuk művelt föld törvény szerinti részét, a község megkapta legelőnek Ökörtelket és Bolnokát. Az uradalom ugyanakkor elvesztette a parasztok adóként fizetett munkaerejét, a robotot.<br>
+      Gödöllőt, a kápolnai csatát (1849. február 26-27) követően márciusban szállta meg az osztrák és horvát katonaság. Hatalmas pusztításokat végeztek a kastélyban, nem kímélték a lakosság jószágait sem.<br>
+      A tavaszi hadjárat során az isaszegi csata (április 6.) eseményei közvetlenül érintették Gödöllő lakosságát is. A dicsőséges ütközetben Klapka György katonái Damjanich János segédcsapatával, Görgey Artúr és Aulich Lajos segítségével győzelmet arattak Jellasich felett.<br>
+      A gödöllői hagyomány szerint id. Sztegovai János tanító hírvivő láncot szervezett idősebb tanítványaiból, hogy a gödöllői lakosságot minél hamarabb értesíteni tudják a csata kimeneteléről. A Bolnoka-dombokról figyelte az ütközetet, a győzelem híre hamar eljutott Gödöllőre. Az idős tanító azonban megfázott, hamarosan meg is halt.<br>
+      A harc éjjel fél 11 körül ért véget, a halottak száma körülbelül 2000 fő volt. A sebesülteket Gödöllőre szállították, a kastélyban berendezett kórházban ápolták. A kerepesi sátorkórházból idekerültek a kolera- és vérhas-járványban szenvedők is. A halottakat két tömegsírba helyezték a temetőben. A gödöllőiek 1861-ben Erdélyi Ferenc református lelkész kezdeményezésére síremléket emeltek az elhunytak sírja fölé, majd 1899-ben Szász Gyula szobrászművész emlékművét is felállították a temetőben.<br>
+      Az isaszegi csata másnapján a magyar sereg bevonult Gödöllőre, Kossuth Lajos a kastély erkélyéről integetve fogadta őket. A kastélyban haditanácsot ültek, Kossuth, az Országos Honvédelmi Bizottmány elnöke ismertette Függetlenségi Nyilatkozatának tervét. A helyi hagyomány szerint este Kossuth ugyanabban az ágyban hajtotta álomra a fejét, amelyből „reggel riadva szökött ki Windischgrätz – futásban keresve menedéket…”.<br>
+      Városunk napjainkban is őrzi a ’48-as hagyományokat, melynek Petőfi mellett fő alakja Gödöllő szülötte Török Ignác (1795–1849), az aradi vértanú honvéd tábornok, illetve Ivánka Imre (1818–1896) honvédezredes. Az Ivánka-kripta a máriabesnyői temetőben található.<br>
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

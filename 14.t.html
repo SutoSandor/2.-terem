@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Társasági élet a 19. század közepétől a második világháborúig</h1>
+  <br>
+
+  <p id="szoveg">
+      Gödöllő lakosságának összetétele a 19. század végére megváltozott. A század közepén a földműves parasztság, a helyi iparosok és néhány kereskedő mellett az uradalmi tisztségviselők alkották a helyi társadalmat. A századfordulóra a megkétszereződött (közel ötezer fő) lakosságon belül megemelkedett a polgári rétegek aránya: hivatalnokok, ügyvédek, orvosok, gyógyszerészek, majd gimnáziumi tanárok mellett jelentősebbé vált a kereskedők és iparosok száma. A község nyaralóhellyé válása, idényjelleggel, de növelte a polgárság számát. A helyi parasztság mellett közülük is sokaknak volt földjük, szőlőjük.<br>
+      A társasági élet évszakonként változott. Tavasszal és nyáron az ideköltöző pestiek színesítették a helyi életet. 1867 után a királyi család, a két világháború között pedig Horthy Miklós kormányzó gödöllői tartózkodása keltette fel a lakosság érdeklődését.<br>
+      A helyi társadalmi élet meghatározó elemei voltak a különböző egyesületek. A századfordulón két társaság működött a községben: az úri Kaszinó 1871-től és a Polgári Kör 1901-től. A Kaszinó első székhelye az Erzsébet Szálloda volt (ma a múzeum épülete). Gazdag könyvtára volt. Évente egy nyári és egy farsangi táncestélyt rendeztek, banketteket, koncerteket tartottak. A Polgári Kör politikamentes, a vallási és társadalmi különbségeket figyelmen kívül hagyó egyesület volt. A Kaszinónál kisebb könyvtára volt, itt is folyóiratok, kártya és más játékok álltak a tagok rendelkezésére. Farsang idején több mulatságot tartottak.<br>
+      Az Önkéntes Tűzoltótestület 1890-ben alakult újra Gödöllőn (az első egyesület rövid idő alatt elhalt). A millenniumi tűzoltóversenyen elért sikerek után a helyi lakosság támogatását is elnyerték. Az önkéntes tűzoltók feladatuk ellátása mellett évente több jótékonysági bált, mulatságot tartottak. A bevételt felszerelésük javítására fordították.<br>
+      A nagyszámú helyi iparossághoz kapcsolódik a Gödöllő és Vidéke Általános Ipartestület, ami a céhek megszűnése után, az ipartörvény alapján fogta össze a környék iparosságát (1893). A közélet eseményeit az iparos dalkör fellépései színesítették. Híres fellépésük volt Erzsébet királyné szobrának leleplezésekor 1901-ben.<br>
+      Az itt nyaralók is rendeztek összejöveteleket. Ilyen volt a Máriabesnyői Nyaralóegyesület Gulyás estélye 1913 augusztusában. A nyaralók igényeinek kielégítésére nyílt az első fürdő Gödöllőn 1885-ben.<br>
+      A 19. század végére, ezt jelzik a nyaralók is, megjelentek a szabadidős tevékenységek. Településünkön is kialakultak a sportolási lehetőségek. A fürdőzést úszóversenyek élénkítették, a besnyői Torna Club és a gödöllői ifjúság futballmeccset tartott, az Erzsébet-park teniszpályáján versenyeket hirdettek. Az 1900-as évek elején rendezett Budapest-Hatvan automobil versenyek is áthaladtak Gödöllőn.<br>
+      A két világháború között a régi egyesületek megszűntek vagy átpolitizálódtak. Természetesen a szórakozás formái maradtak, a rendezvények jótékonysági szerepére nagy szükség volt. A jótékonysági szervezetek (Magyar Asszonyok Nemzeti Szövetsége, Stefánia) gödöllői tagintézményei is megalakultak.<br>
+      A község legjelentősebb egyesülete ekkor a Polgári Kör helyébe lépő Gödöllői Járási Közművelődési Egyesület volt. Legjelentősebb rendezvénye az 1926-ban megrendezett járási kiállítás, melynek keretében mezőgazdasági, erdőgazdasági, ipari, egészségügyi, kulturális és művészeti tárlatot mutattak be.
+            
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Health care</h1>
+  <br>
+
+  <p id="szoveg">
+      The earliest data relating to Gödöllő's health conditions are from the 17th century. Presumably a midwife lived in the village before that, too. Her tasks were not only the ones around childbirth, but she also carried out other medical activities as well, if it was necessary. The settlement of the Capuchins in Máriabesnyő caused an improvement in health care,  since the monastery's pharmacy (from 1769 onwards) was open to the general public. The landlord moved the pharmacy to the building of the inn (now the museum) in 1813. The pharmacy later went to private ownership. In the first half of the 20th century it was operated under the name of the "Magyar Korona" (Hungarian Crown) by Dániel Szentgáli, that was when the pharmacy (today Kígyó Gyógyszertár (Snake Pharmacy)) moved to its present location. In 1950, the two pharmacies of the village were socialized. The equipment of the Petreczky-pharmacy mainly ended up in the university pharmacy, opened in 1968.<br><br>
+      In addition to medication, in the first half of the 20th century the prevention of diseases became increasingly important. With the formation of the National Stefania Association (1915) mother and infant care came to the fore. After 1920 - since the number of population exceeded 10,000 - a branch association was established at Gödöllő. As a result of the work of the Stefania nurses infant mortality was significantly reduced.<br><br>
+      In order to extend the preventive health protection to other areas, nationwide health districts were organized. The changing of Gödöllő processus (district) into an exemplary processus began in 1927. In 1930, the Health House opened its doors. The two-story building included an X-ray laboratory, sun-lamp room, school dentistry and Ambulance. There were also the offices of the Stefania Association, the medical officer's office, it had lung- and psychiatric clinics, laboratories, and a lecture room as well. Garage, boiler room, laundry room, service- and sleeping quarters allowed the overall operation and education. School check-ups became regular too. In connection with the development , the Gödöllő Processus Maternity Hospital opened in the following year.<br><br>
+      The building of the Health House was demolished in the 1970s, the SZTK (National Health Service hospital) built in the city center took over its duties. The Maternity Hospital worked until 1979, until the opening of the Kerepestarcsa (today Kistarcsa) hospital.<br><br>
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

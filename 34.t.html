@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Gödöllő I. világháborús emlékművei</h1>
+  <br>
+
+  <p id="szoveg">
+     
+
+        A háború kitörését követő mozgósítás után több mint 500-an vonultak be Gödöllőről katonának. Többségüket néhány hetes kiképzés után azonnal a frontra irányították. Összlétszámukat tekintve közel 900-an vonultak be a településről. A háború során több mint 200-an haltak hősi halált a gödöllői katonák közül. <br>
+        Már a háború elején 1914 őszén a gödöllői népsegítő bizottság határozatot hozott Körösfői Kriesch Aladár indítványára, hogy emlékművet állítsanak a harcokban elesett gödöllői katonáknak a temetőben. Az indítvány mellett a bizottság elfogadta Körösfői szobortervét is, és a saját költségén kívánta a honvédemlékmű mellett az alkotást felállítani. Azonban az emlékszobor nem készült el, helyette egy emlékkeresztet állítottak, melyet 1914. november. 1-jén, délután 5 órakor avattak fel. <br>
+        Az 1920-as, ’30-as évek folyamán a településen több emléktáblát is avattak, intézmények, egyesületek és egyházak tulajdonába tartozó épületek falán. 1922. január 8-án az izraelita hitközség avatta fel a háború során elhunyt hittestvéreik márványtábláját. A tábla 9 nevet örökített meg. 1923-ban az ipartestületi székház falán helyezték el a háborúban elhunyt tagok névsorát megörökítő emléktáblát. A táblán 15 mester és 49 segéd neve szerepel. 1925. november 7-én leplezték le az erdőgazdaság székházában a háborúban elesett hősök emléktábláját. 1939. szeptember 3-án az új tűzoltóság épületével egy időben avatták fel a 6 hősi halott nevével ellátott emléktáblát, az új tűzoltóság falán. <br>
+        1929-ben új hősi emlékművet avattak Gödöllőn, a Premontrei Rendház és Gimnázium parkjában. Ez állított emléket az I. világháborúban hősi halált halt kassai, nagyváradi, rozsnyói premontrei diákoknak, öregdiákoknak és tanároknak. Az avatásra 1929. május 29-én került sor. A négyszög alaprajzú terméskőtömb– melynek oldalain márványtáblák voltak a hősök nevével– Kertész K. Róbert és Sváb Gyula tervei alapján épült. Az alkotás fedőlapján egy bronz serlegben Kassáról, Rozsnyóról és Nagyváradról hozott föld emlékeztetett a halottakra. Az emlékművet az 1950-es években lerombolták.<br>
+        Gödöllő község képviselő testülete 1927.április elsejei ülésén határozatot hozott, hogy a háborúban elesettek emlékét egy új szobor felállításával örökíti meg. A testület megbízást adott Siklódy Lőrincz szobrászművésznek az emlékmű elkészítésére. A szobor felavatására végül 1930. szeptember 7-én 11 órakor került sor. Nemcsak Gödöllőről és a gödöllői járásból, hanem a szomszédos járásokból és Budapestről is különvonatokon érkeztek az avatásra. A szobrot 11 órakor Horthy Miklós kormányzó leplezte le. Siklódy Lőrincz, ezzel a szobormintával nyerte meg az országos tavaszi tárlaton a főváros nagydíját. A szobor kálváriája a felállítás után több mint 20 évvel az 1950-es években kezdődött. A talapzaton eredetileg a következő szöveg volt olvasható: „Mi nem felejtünk. Nem felejthetünk…”. Ezt az 1950- es években eltávolították. A talapzat elején a koronás címer is látható volt, melyről a koronát szintén az 50-es években levésték. Az 1970-es években a szövetkezeti áruház építésével átalakult a tér szerkezete. Ekkor az emlékművet - mint oda nem illő tárgyat - nem kívánatosnak nyilvánították, ezért száműzték a régi református temető egy elhagyott részére, ahol 30 évig állt a sírok között. Csak 1990-ben kerülhetett vissza az eredeti helyére.<br>
+        Az utolsó emlékmű kevésbé a hősi halottaknak, inkább a háború következményének állít emléket. 1935. október 6-án avatták fel a kastély oldalán, a kastélytemplom előtti parkos területen az országzászlót. Az építmény egy kőhalomból áll, melynek közepére egy kőből faragott nemzeti címeres tábla került. Az emlékmű tetejére egy töviskorona fölé állították a félárbócra eresztett nemzeti színű zászlót.<br>
+
+
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

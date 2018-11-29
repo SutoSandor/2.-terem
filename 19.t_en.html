@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Lujza Blaha in Gödöllő</h1>
+  <br>
+
+  <p id="szoveg">
+      Lujza Blaha and his third husband baron Ödön Splényi bought a country cottage in Gödöllő, in the year of 1881, when they got married. Part of the plot which belonged to them, can be found today in 132-138 Blaháné street; the original plot was much bigger, fot it extended as far as to Vilmos Lázár street. One of the rooms of the house in Gödöllő was furnished on the basis of the actress’ favourite play entitled: A piros bugyelláris (The Red Purse). In 1893 when Lujza Blaha and her husband sold their house in Gödöllő, László Kafka the district administrator who owned the cottage house in the neighbourhood, bought the pieces of furniture found in the house. They were shown at the district exhibition in 1926.<br><br>
+      The one-time house of Lujza Blaha was destroyed during a bombing in 1944. In 1965 the art historian Antal Kampis (1913-1982) bought the plot. He had a smaller two-room summer cottage built there with all modern conveniences. Antal Kampis donated the plot with the house on it along with his collection to the city of Gödöllő in 1978. Nowadays, the plot is the practicing park of the Montagh Imre School and the Blaha Napközis Tábor (Blaha Day-Care Summercamp) operates here as well.<br><br>
+      The nearby open-air swimming pool was opened in 1926. It was to be found not far from the one-time house of the actress. The open-air pool could be established thanks to the Gödöllői Örghegyi Társaság (Society of Oldhill of Gödöllő). The water was drawn from a natural water flow to the 65X25 metre pool merging from the ground level. The lido was closed down due to its dilapidated condition in the 1970-ies.<br><br>
+
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

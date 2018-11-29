@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+      .szamcim{
+        top: -4px;
+      }
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The 18<span class="szamcim">4</span>8/<span class="szamcim">49</span> Revolution and War of Independence in Gödöllő</h1>
+  <br>
+
+  <p id="szoveg">
+    The news about the revolutionary events reached Gödöllő already on 15 March. The ladies sew rosettes, a 230-strong Gödöllő national guard was set up. In the lives of the locals the April laws brought a significant change. The abolition of serfdom, which was implemented under Count Károly Viczay (the heir of the Grassalkoviches), according to law gave the peasants a part of the land they had farmed, and the village received Ökörtelek and Bolnoka as pastures. At the same time the estate lost the robot, the tax the peasants paid in labor force.<br><br>
+    Gödöllő, after the Battle of Kápolna (26-27 February 1849) was invaded by the Austrian and Croatian army in March. Massive destruction was carried out in the castle, and the animals of the locals were not spared either.<br><br>
+    During the spring campaign the events of the Battle of Isaszeg (6 April) directly affected the population of Gödöllő. In the glorious battle the soldiers of György Klapka with János Damjanich's assistant troops, and the help of Artúr Görgey and Lajos Aulich won over Jellasich.<br><br>
+    According to Gödöllő tradition the teacher János Sztegovai Senior organized a chain of messengers from his older students to notify the Gödöllő public of the outcome of the battle as soon as possible. He was watching the battle from the Bolnoka hills, and the news of the victory soon reached Gödöllő. However, the old teacher caught cold and soon died.<br><br>
+    The battle ended around half past 10 at night, the number of the dead was about 2,000. The wounded were transported to Gödöllő, and got hospitalized in the castle. The  victims of the cholera and dysentery epidemics from the tent hospital of Kerepes came there too. The dead were placed in two mass graves in the cemetery. The people of Gödöllő on the initiative of the Reformed pastor Ferenc Erdélyi erected a tomb over the grave of the deceased in 1861, then in 1899 it was followed by a memorial made by the  sculptor Gyula Szász. <br><br>
+    The day after the Battle of Isaszeg the Hungarian army marched in Gödöllő, Lajos Kossuth was welcoming them waving from the balcony of the castle. A war council was held in the castle, Kossuth, as the chairman of the National Defense Committee presented the plan of his Declaration of Independence. According to local tradition, Kossuth went to sleep in the same bed from which "the frightened Windischgrätz escaped in the morning - seeking refuge in running... ".<br><br>
+    Our town still keeps the traditions of '48, which, besides Petofi , have as main characters the Gödöllő -born army general Ignác Török (1795-1849), a martyr of Arad, and army colonel Imre Ivánka (1818-1896). The Ivánka-crypt is in the cemetery of Máriabesnyő.<br><br>
+
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

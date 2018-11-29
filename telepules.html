@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1> Gödöllő településszerkezeti változásai a barokk kortól a 20. század közepéig</h1>
+  <br>
+
+  <p id="szoveg">
+I Grassalkovich Antal 1748- ben vált teljes mértékben Gödöllő tulajdonosává. A település neki köszönhetően mind területében mind lakosságszámában jelentősen növekedett. A település Grassalkovich előtt Alvégre, Felvégre és Hídvégre tagozódott. Az Alvég, a mai Ady Endre sétány helyén állt, a házak az Isaszeg felől Vác felé tartó országút mindkét oldalán álltak. A Felvég a település északi részén a mai Bajcsy-Zsilinszki utca helyén állt, melynek végét néhány jobbágyporta zárta le a mai Szilhát utca helyén. A Hídvég az Alvég és a Felvég között a Rákos-patak mentén a mai Petőfi Sándor utca helyén feküdt.<br><br>
+Grasalkovich Antal a már korábban létrejött településszerkezetet jelentős mértékben nem módosította, de természetesen a saját igényeinek megfelelően alakított rajta, annak érdekében, hogy kastélyának és az uradalomhoz szükséges épületeknek megfelelő helyet biztosíthasson. Az Alvég északi részén, a mai 3-as főút közelében lévő középkori eredetű, reformátusok által használt templomot elbontatta és a körülötte lévő cintermet fölszámoltatta és ezen a helyen kezdte meg a kastélyának építését. A település központjában lévő Hamvay Ferenc által építetett nemesei kúriát lebontatta és helyére egy emeletes fogadót építetett. A gróf a meglévő településrészekhez kapcsolódva új utcákat nyitott. A kastélyig húzódó haraszti erdő fáit kivágatta a mai Szabadság tér helyén, és itt alakíttatta ki a vásárteret, melynek északi oldalát házakkal zárta le, de itt biztosított helyet az új református templomnak is. A vásártér mögötti erdőtől megtisztított területen nyitotta a mai Kossuth Lajos utcát és a települést a mai Körösfői utcával zárta, ahol már csak gazdasági épületek kaptak helyet. A mai 3-as főút mentén is épültek új házak. Az újonnan épített utcákban német mintára épült házakat biztosított a telepeseinek, és természetesen az uradalmi hivatali épületek egy része és a tisztviselői lakások is az új lakónegyedben kaptak helyet. <br><br>
+A 18. században létrejött településszerkezet első nagyobb átalakítására az 1860-as években került sor, ekkor bontották el az alvég keleti oldalán álló uradalmi és jobbágyházak jelentős részét. A 19. század közepéig kismértékű utcahálózati fejlődés mutatkozott. A korábban meglévő utcákhoz kapcsolódva új utcák nyíltak. A község belterületének jelentős mértékű növekedése a királyi korszaknak köszönhető, mikor Gödöllő nyaralóhellyé fejlődött 1867 után. A lakosság létszámának növekedését a lakóterület növekedése nem tudta kellő mértékben követni. Ennek eredményeként a korábban mezőgazdasági célokat szolgáló utcákban a gazdasági termelés kiszolgáló építményei mellett vagy azok helyén is megjelennek a lakóházak. A település belső területén, a hosszú telkek végén lévő gazdasági udvart a telek egy részével együtt leválasztották, és az újonnan létrejött telekre már új lakóházat építettek. A település zsúfoltságára utal az a tény is, hogy a városhatárhoz legközelebb álló mezőgazdasági terület parcelláin megjelennek a lakóházak. A belterület fejlődésével párhuzamosan – a már korábban említett okok miatt – a külterület is rohamos fejlődésnek indult a 19. század második felétől kezdődően. A település szomszédságában lévő, a közbirtokosság tulajdonát képző legelőterületeket kezdték el a 19. századtól kezdve fölparcellázni. Az esetek többségében vállalkozók vették meg egy tagban a földterületeket, majd a parcellázást és a telkek értékesítését már maguk végezték. Egyre másra jelentek meg az új lakóövezetek, az ott újonnan felépített lakóházakkal, villákkal. A 19. század végére a korábbi vásártér, -akkor Ferenc József tér- és a Váci út házainak jelentős része átalakult a kornak, a divatiránynak és a funkcióváltásnak megfelelően. A királyi nyaralóhelynek és az élénk polgári életnek köszönhetően Gödöllő, a 19. század végére, 20. század elejére újra élettel teli pezsgő településsé vált. Üzletek, éttermek, boltok jelentek meg a város központjában és innentől fogva ezek határozták meg a főtér arculatát.<br><br>
+
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

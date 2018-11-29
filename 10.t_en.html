@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The death and cult of and Queen Elizabeth</h1>
+  <br>
+
+  <p id="szoveg">
+      Queen Elizabeth's death on 10 September 1898 (Luigi Lucheni stabbed her to death with a file in Geneva) made the country mourn. Ignác Darányi, Minister of Agriculture already in the year of the death of Queen Elizabeth announced a program for the establishment of Queen memorial trees, memorial parks and memorial forests. The establishment of a memorial park was ordered in Gödöllő. Over the next year, 48,000 saplings were planted on the basis of the plans of the capital's chief gardener, Károly Räde, in the area chosen by Ernő Pirkner forest master. A rock group was built in the central part of the composition. <br><br>
+      At the same time of the creation of the park a sculpture committee was established in Gödöllő with the  aim to create a statue to the queen in the future park. The chairman was Vilmos Kapczy chief constable. The sculptor József Róna, renouncing his remuneration, prepared two plans from which the monarch chose. The park was finished in 1900, the statue was unveiled a year later. At the ceremony, Francis Joseph and several members of the royal family were present. The Elizabeth park became a memorial place, many placed a wreath at the foot of the statue.<br><br>
+      The statue committee created the Elizabeth Foundation from the remaining money, they organized commemorative events and supported poor schoolchildren from the interest.<br><br>
+      Already in 1898 the town commemorated the 30th anniversary of the royal couple's stay in Gödöllő. According to the proposal of the council the main square was named Ferenc József tér /Franz Joseph square/ (now Szabadság Square), the road running from the castle to the station Erzsébet út /Queen Elizabeth road/ (now Ady Endre promenade) and this is how Isaszegi Street (Isaszegi road) became Gizella road, and Calvary row (Táncsics Mihály road) was renamed Mária Valéria road.<br><br>
+      Ferenc Ripka, who released his book entitled Gödöllő, the home of the royal family by the Millennium (1896) published his booklet entitled Queen Elizabeth in Gödöllő following the death of Queen Elizabeth.<br><br>
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

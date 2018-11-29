@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <script src="js/jquery.fancybox.js"></script>
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style> 
+      p.floatright{text-align: right;}
+  </style>
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+ <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The royal family in Gödöllő</h1>
+  <br>
+
+  <p id="szoveg">
+      With the Compromise and the crowning (1867) of Franz Joseph (1830-1916) and Elizabeth (1837-1898) a new era began in the life of the city. The Hungarian state bought Gödöllő estate from the actual owner, the Belgian bank. The purchase was enacted, so the estate with the castle became crown property. The building and the park belonged to the prevailing Hungarian monarch, the estate incomes went to the state budget to cover the costs of the household.<br><br>
+      Previously Queen Elizabeth during a horse riding trip had been in Gödöllő (in 1866), and she liked the castle. Maybe that is why the choice fell on this estate. To ensure the safety of the royal family the nearby forests were also bought, creating an integrated zone for the hunts.<br><br>
+      The castle building was renovated. Next to the royal apartments service and office rooms were created for the household, and the number of guest rooms was also increased. From the autumn of 1867, the royal family had an extended stay in Gödöllő each year - mainly in spring and autumn. Upon their arrival the dignitaries of the town were among the welcoming committee.<br><br>
+      The presence of Franz Joseph and Queen Elizabeth 's residence had an impact on the development of Gödöllő as well. Gödöllő became a popular holiday resort for citizens of Pest. At the railway station the imposing building of the Royal Waiting Room was built, the suburban railway transport started in 1911. After the turn of the century many local craftsmen and traders worked for the castle. The head officers of the Crown Estate took part in the local social life, many of them were members of cultural and economic associations. The Civil Savings Bank was founded in 1904 , where Franz Joseph  bought the first twenty-five bonds.<br><br>
+      The weeks spent in Gödöllő contributed to the positive perception of the ruler. Franz Joseph appeared as a private person, a monarch performing his tasks every day, an excellent hunter and a helpful king in the press, political literature and local folklore as well. Queen Elizabeth's personality contributed greatly to the fact that the king's retaliatory measures related to the Revolution and War of Independence (1848-49) slowly turned into just painful memories.<br><br>
+  </p>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
